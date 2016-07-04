@@ -4,11 +4,10 @@
   "description": "log configuration for zen-platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/CoderDojo/cp-logs-lib"
+    "url": "https://github.com/CoderDojo/cp-logs-lib"
   },
   "keywords": [
     "log",
@@ -17,10 +16,6 @@
   ],
   "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CoderDojo/cp-logs-lib/issues"
-  },
-  "homepage": "https://github.com/CoderDojo/cp-logs-lib",
   "dependencies": {
     "bunyan": "^1.8.1",
     "le_node": "^1.3.1",
