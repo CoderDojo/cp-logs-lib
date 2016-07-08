@@ -27,7 +27,7 @@
           loggerDefinition.level = level;
           logger = bunyan.createLogger(loggerDefinition);
         } else {
-          logger = bunyan.createLogger({name: 'cp-dojos-service', level: level});
+          logger = bunyan.createLogger({name: args.name, level: level});
         }
       }
       return logger;
